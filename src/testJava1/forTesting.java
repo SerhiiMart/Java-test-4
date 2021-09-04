@@ -31,6 +31,8 @@ public class forTesting {
 		System.out.println(Math.min(4.5, 17.5));
 		System.out.println((int)Math.pow(3.0, 2));
 		System.out.println((int)Math.sqrt(144));
+		System.out.println(Math.PI);
+		System.out.println(Math.toDegrees(6));
 		
 		
 	}
