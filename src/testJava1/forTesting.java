@@ -26,13 +26,18 @@ public class forTesting {
 		
 		
 		////Math
-		System.out.println(Math.abs(-50));
-		System.out.println(Math.max(4.5, 17.5));
-		System.out.println(Math.min(4.5, 17.5));
-		System.out.println((int)Math.pow(3.0, 2));
-		System.out.println((int)Math.sqrt(144));
-		System.out.println(Math.PI);
-		System.out.println(Math.toDegrees(6));
+//		System.out.println(Math.abs(-50));
+//		System.out.println(Math.max(4.5, 17.5));
+//		System.out.println(Math.min(4.5, 17.5));
+//		System.out.println((int)Math.pow(3.0, 2));
+//		System.out.println((int)Math.sqrt(144));
+//		System.out.println(Math.PI);
+//		System.out.println(Math.toDegrees(6));
+//		
+		////Ternary operator in Java
+		int someVar = 20;
+		String messString = someVar >= 30 ? "Message 1" : "Message 2";
+		System.out.println(messString);
 	}
 
 }
