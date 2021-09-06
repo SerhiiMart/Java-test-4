@@ -1,5 +1,7 @@
 package testJava1;
 
+import sun.security.provider.JavaKeyStore.CaseExactJKS;
+
 public class forTesting {
 
 	public static void main(String[] args) {
@@ -35,9 +37,30 @@ public class forTesting {
 //		System.out.println(Math.toDegrees(6));
 //		
 		////Ternary operator in Java
-		int someVar = 20;
-		String messString = someVar >= 30 ? "Message 1" : "Message 2";
-		System.out.println(messString);
+//		int someVar = 20;
+//		String messString = someVar >= 30 ? "Message 1" : "Message 2";
+//		System.out.println(messString);
+		
+		  //Switch Statements
+		String timeOfTheWeek = "Sunday";
+			switch (timeOfTheWeek) {
+			case "Saturday" :
+				break;
+			case "Monday":
+				break;
+			case "Tuesday":
+				break;
+			case "Wednesday":
+				break;
+			case "Thursday":
+				break;
+			case "Friday":
+				break;
+			default:
+				break;
+			
+			}
+		
 	}
 
 }
