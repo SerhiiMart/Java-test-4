@@ -41,8 +41,8 @@ public class forTesting {
 //		System.out.println(messString);
 		
 		  //Switch Statements
-		String timeOfTheWeek = "Friday";
-			switch (timeOfTheWeek) {
+		String dayOfTheWeek = "Friday";
+			switch (dayOfTheWeek) {
 			case "Saturday" :
 				System.out.println("Today is Saturday");
 				break;
