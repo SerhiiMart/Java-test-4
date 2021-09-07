@@ -67,7 +67,12 @@ public class forTesting {
 //			}
 		////Arrays
 		int [] numbers = new int[8];
+		boolean [] booleans = new boolean[3];
+		String [] strings = new String[5];
+		
 		System.out.println(Arrays.toString(numbers));
+		System.out.println(Arrays.toString(booleans));
+		System.out.println(Arrays.toString(strings));
 	}
 
 }
