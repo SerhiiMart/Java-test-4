@@ -66,7 +66,11 @@ public class forTesting {
 //				System.out.println("It's Sunday today");
 //			}
 		////Arrays
-		int [] numbers = new int[8];
+//		int [] numbers = new int[3]; // For single
+//		numbers[0] = 8;
+//		numbers[1] = 6;
+//		numbers[2] = 4;
+		int [] numbers = {5, 6, 10, 13, 64, 3, 2, 19}; // For multiple 
 		boolean [] booleans = new boolean[3];
 		String [] strings = new String[5];
 		
