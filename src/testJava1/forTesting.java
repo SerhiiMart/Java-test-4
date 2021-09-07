@@ -1,5 +1,6 @@
 package testJava1;
 
+import java.util.Arrays;
 
 public class forTesting {
 
@@ -41,7 +42,7 @@ public class forTesting {
 //		System.out.println(messString);
 		
 		  //Switch Statements
-		String dayOfTheWeek = "Friday";
+//		String dayOfTheWeek = "Friday";
 //			switch (dayOfTheWeek) {
 //			case "Saturday" :
 //				System.out.println("Today is Saturday");
@@ -64,7 +65,9 @@ public class forTesting {
 //			default:
 //				System.out.println("It's Sunday today");
 //			}
-		////Array
+		////Arrays
+		int [] numbers = new int[8];
+		System.out.println(Arrays.toString(numbers));
 	}
 
 }
