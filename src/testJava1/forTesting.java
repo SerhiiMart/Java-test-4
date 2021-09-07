@@ -42,29 +42,29 @@ public class forTesting {
 		
 		  //Switch Statements
 		String dayOfTheWeek = "Friday";
-			switch (dayOfTheWeek) {
-			case "Saturday" :
-				System.out.println("Today is Saturday");
-				break;
-			case "Monday":
-				System.out.println("Today is Monday");
-				break;
-			case "Tuesday":
-				System.out.println("Today is Tuesday");
-				break;
-			case "Wednesday":
-				System.out.println("Today is Wednesday");
-				break;
-			case "Thursday":
-				System.out.println("Today is Thursday");
-				break;
-			case "Friday":
-				System.out.println("Today is Friday");
-				break;
-			default:
-				System.out.println("It's Sunday today");
-			}
-		
+//			switch (dayOfTheWeek) {
+//			case "Saturday" :
+//				System.out.println("Today is Saturday");
+//				break;
+//			case "Monday":
+//				System.out.println("Today is Monday");
+//				break;
+//			case "Tuesday":
+//				System.out.println("Today is Tuesday");
+//				break;
+//			case "Wednesday":
+//				System.out.println("Today is Wednesday");
+//				break;
+//			case "Thursday":
+//				System.out.println("Today is Thursday");
+//				break;
+//			case "Friday":
+//				System.out.println("Today is Friday");
+//				break;
+//			default:
+//				System.out.println("It's Sunday today");
+//			}
+		////Array
 	}
 
 }
