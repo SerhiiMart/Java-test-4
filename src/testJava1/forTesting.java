@@ -82,6 +82,10 @@ public class forTesting {
 		System.out.println(numbers.length);
 		System.out.println(Arrays.toString(booleans));
 		System.out.println(Arrays.toString(strings));
+		
+		int varN = numbers[numbers.length - 1];
+		System.out.println(varN);
+		
 	}
 
 }
