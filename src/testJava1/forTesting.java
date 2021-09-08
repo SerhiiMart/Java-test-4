@@ -66,15 +66,16 @@ public class forTesting {
 //				System.out.println("It's Sunday today");
 //			}
 		////Arrays
-//		int [] numbers = new int[3]; // For single each
-//		numbers[0] = 8;
-//		numbers[1] = 6;
-//		numbers[2] = 4;
+		int [] numbersForEach = new int[3]; // For single each
+		numbersForEach[0] = 8;
+		numbersForEach[1] = 6;
+		numbersForEach[2] = 4;
 		int [] numbers = {5, 6, 10, 13, 64, 3, 2, 19}; // For multiple 
 //		boolean [] booleans = new boolean[3]; //  For single each
 		boolean [] booleans = { true, false, true};
 		String [] strings = new String[5];
 		
+		System.out.println(Arrays.toString(numbersForEach));
 		System.out.println(Arrays.toString(numbers));
 		System.out.println(Arrays.toString(booleans));
 		System.out.println(Arrays.toString(strings));
