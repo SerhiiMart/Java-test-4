@@ -65,27 +65,39 @@ public class forTesting {
 //			default:
 //				System.out.println("It's Sunday today");
 //			}
-		////Arrays
-		int [] numbersForEach = new int[3]; // For single each
-		numbersForEach[0] = 8;
-		numbersForEach[1] = 6;
-		numbersForEach[2] = 4;
-		int [] numbers = {5, 6, 10, 13, 64, 3, 2, 19}; // For multiple 
-//		boolean [] booleans = new boolean[3]; //  For single each
-		boolean [] booleans = { true, false, true};
-//		String [] strings = new String[5]; //  For single each
+//		////Arrays
+//		int [] numbersForEach = new int[3]; // For single each
+//		numbersForEach[0] = 8;
+//		numbersForEach[1] = 6;
+//		numbersForEach[2] = 4;
+//		int [] numbers = {5, 6, 10, 13, 64, 3, 2, 19}; // For multiple 
+////		boolean [] booleans = new boolean[3]; //  For single each
+//		boolean [] booleans = { true, false, true};
+////		String [] strings = new String[5]; //  For single each
+//		
+//		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
+//		
+//		System.out.println(Arrays.toString(numbersForEach));
+//		System.out.println(Arrays.toString(numbers));
+//		System.out.println(numbers.length);
+//		System.out.println(Arrays.toString(booleans));
+//		System.out.println(Arrays.toString(strings));
+//		
+//		int varN = numbers[numbers.length - 1];
+//		System.out.println(varN);
 		
-		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
 		
-		System.out.println(Arrays.toString(numbersForEach));
-		System.out.println(Arrays.toString(numbers));
-		System.out.println(numbers.length);
-		System.out.println(Arrays.toString(booleans));
-		System.out.println(Arrays.toString(strings));
 		
-		int varN = numbers[numbers.length - 1];
-		System.out.println(varN);
+		////  Enhanced For Loop
+
+		int [] nums = {5, 6, 10, 13, 64, 3, 2, 19}; //  regular For Loop
+		for (int i = 0; i < nums.length; i++ ) {
+			System.out.println(nums[i]);
+		}
 		
+//		for (int num : nums) { //  Enhanced For Loop
+//			System.out.println(num);
+//		}
 	}
 
 }
