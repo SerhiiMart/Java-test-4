@@ -73,10 +73,13 @@ public class forTesting {
 		int [] numbers = {5, 6, 10, 13, 64, 3, 2, 19}; // For multiple 
 //		boolean [] booleans = new boolean[3]; //  For single each
 		boolean [] booleans = { true, false, true};
-		String [] strings = new String[5];
+//		String [] strings = new String[5]; //  For single each
+		
+		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
 		
 		System.out.println(Arrays.toString(numbersForEach));
 		System.out.println(Arrays.toString(numbers));
+		System.out.println(numbers.length);
 		System.out.println(Arrays.toString(booleans));
 		System.out.println(Arrays.toString(strings));
 	}
