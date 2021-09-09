@@ -105,16 +105,33 @@ public class forTesting {
 		
 		////  Break and Continue
 		
-		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
-		for (String str: strings) {
-//			if (str.equals("Third")) {
-//				break;
+//		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
+//		for (String str: strings) {
+////			if (str.equals("Third")) {
+////				break;
+////			}
+//			if (str.startsWith("F")) {
+//				continue;
 //			}
-			if (str.startsWith("F")) {
-				continue;
-			}
-			System.out.println(str);
+//			System.out.println(str);
+//		}
+		
+		
+		////  While Loop
+//		int x = 0;
+//		while (x <= 13) {
+//			System.out.println(x++);
+//		}
+		
+		
+		////  Do While
+		int x = 1;
+		do {
+			System.out.println("X is " + x);
+			x++;
 		}
+		while (x <= 13);
+		
 	}
 
 }
