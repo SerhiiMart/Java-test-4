@@ -95,15 +95,23 @@ public class forTesting {
 ////			System.out.println(nums[i +1 ]);//starting on naibor
 ////		}
 //		
-////		for (int num : nums) { //  Enhanced For Loop
+////		for (int num : nums) { //  Enhanced For Loop. Same thing.
 ////		System.out.println(num);
 ////	}
 //		
 //		Arrays.stream(nums).forEach(System.out::println); // Looping for loop using stream and forEach.
-//		
-//		
-//
-//		
+		
+		
+		
+		////  Break and Continue
+		
+		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
+		for (String str: strings) {
+			if (str.equals("Third")) {
+				break;
+			}
+			System.out.println(str);
+		}
 	}
 
 }
