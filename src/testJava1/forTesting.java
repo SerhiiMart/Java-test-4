@@ -107,8 +107,11 @@ public class forTesting {
 		
 		String [] strings = {"First", "Second", "Third", "Forth", "Fifth"};
 		for (String str: strings) {
-			if (str.equals("Third")) {
-				break;
+//			if (str.equals("Third")) {
+//				break;
+//			}
+			if (str.startsWith("F")) {
+				continue;
 			}
 			System.out.println(str);
 		}
