@@ -124,14 +124,14 @@ public class forTesting {
 //		}
 		
 		
-		////  Do While
-		int x = 1;
-		do {
-			System.out.println("X is " + x);
-			x++;
-		}
-		while (x <= 13);
-		
+//		////  Do While
+//		int x = 1;
+//		do {
+//			System.out.println("X is " + x); ////executes at least once
+//			x++;
+//		}
+//		while (x <= 13);
+//		
 	}
 
 }
