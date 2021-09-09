@@ -89,15 +89,21 @@ public class forTesting {
 		
 		
 		////  Enhanced For Loop
-
-		int [] nums = {5, 6, 10, 13, 64, 3, 2, 19}; //  regular For Loop
-		for (int i = 0; i < nums.length; i++ ) {
-			System.out.println(nums[i]);
-		}
-		
-//		for (int num : nums) { //  Enhanced For Loop
-//			System.out.println(num);
-//		}
+//
+//		int [] nums = {5, 6, 10, 13, 64, 3, 2, 19}; //  regular For Loop
+////		for (int i = 0; i < nums.length; i++ ) {
+////			System.out.println(nums[i +1 ]);//starting on naibor
+////		}
+//		
+////		for (int num : nums) { //  Enhanced For Loop
+////		System.out.println(num);
+////	}
+//		
+//		Arrays.stream(nums).forEach(System.out::println); // Looping for loop using stream and forEach.
+//		
+//		
+//
+//		
 	}
 
 }
