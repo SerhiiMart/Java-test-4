@@ -1,5 +1,6 @@
 package testJava1;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 //import java.util.Arrays;
@@ -140,6 +141,10 @@ public class forTesting {
 		System.out.println("What's your favorite color?");
 		String color = scanner.nextLine();
 		System.out.println("Your favorite color is " + color);
+		System.out.println("What's your age?");
+		int age = scanner.nextInt();
+		int year = LocalDate.now().minusYears(age).getYear();
+		System.out.println("You were born in " + year + " year");
 	}
 
 }
