@@ -148,6 +148,9 @@ public class forTesting {
 		int age = scanner.nextInt();
 		int year = LocalDate.now().minusYears(age).getYear();
 		System.out.println("You were born in " + year);
+		
+		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
+		System.out.println(ternaryAgeString);
 	}
 
 }
