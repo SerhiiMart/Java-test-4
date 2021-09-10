@@ -154,30 +154,34 @@ public class forTesting {
 //		System.out.println(ternaryAgeString);
 		
 		
-		//// Classes and Objects
-//		String passNumString = new String("5649435"); // Object
-//		String passNumString2 = new String("9156486"); // Object
-		Watches watchOne  = new Watches("Rolex", "200$", true);
-		Watches watchTwo  = new Watches("Femwok", "50$", false);
-		Watches watchThree  = new Watches("Sputnic", "80$", true);
-		System.out.println("watchOne");
-		System.out.println(watchOne.brand);
-		System.out.println(watchOne.price);
-		System.out.println(watchOne.forMan);
+//		//// Classes and Objects
+////		String passNumString = new String("5649435"); // Object
+////		String passNumString2 = new String("9156486"); // Object
+//		Watches watchOne  = new Watches("Rolex", "200$", true);
+//		Watches watchTwo  = new Watches("Femwok", "50$", false);
+//		Watches watchThree  = new Watches("Sputnic", "80$", true);
+//		System.out.println("watch One");
+//		System.out.println(watchOne.brand);
+//		System.out.println(watchOne.price);
+//		System.out.println(watchOne.forMan);
+		
+		
+		
+		
 		
 	}
 	
-	static class Watches { // class/template 
-		String brand;
-		String price;
-		boolean forMan;
-		
-		Watches(String brand, String price, boolean forMan) { //Constuctor
-			this.brand = brand;
-			this.price = price;
-			this.forMan = forMan;
-		}
-	}
+//	static class Watches { // class/template/blueprint
+//		String brand;
+//		String price;
+//		boolean forMan;
+//		
+//		Watches(String brand, String price, boolean forMan) { //Constuctor
+//			this.brand = brand;
+//			this.price = price;
+//			this.forMan = forMan;
+//		}
+//	}
 	
 
 }
