@@ -137,6 +137,9 @@ public class forTesting {
 		
 		////  Taking user input with the Scanner class
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("What's your favorite color?");
+		String color = scanner.nextLine();
+		System.out.println("Your favorite color is " + color);
 	}
 
 }
