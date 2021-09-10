@@ -1,6 +1,8 @@
 package testJava1;
 
-import java.util.Arrays;
+import java.util.Scanner;
+
+//import java.util.Arrays;
 
 public class forTesting {
 
@@ -132,6 +134,9 @@ public class forTesting {
 //		}
 //		while (x <= 13);
 //		
+		
+		////  Taking user input with the Scanner class
+		Scanner scanner = new Scanner(System.in);
 	}
 
 }
