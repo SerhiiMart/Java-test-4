@@ -1,6 +1,6 @@
 package testJava1;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 //import java.time.LocalDate;
 //import java.util.Scanner;
@@ -153,17 +153,31 @@ public class forTesting {
 //		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
 //		System.out.println(ternaryAgeString);
 		
-
+		
+		//// Classes and Objects
+//		String passNumString = new String("5649435"); // Object
+//		String passNumString2 = new String("9156486"); // Object
+		Watches watchOne  = new Watches("Rolex", "200$", true);
+		Watches watchTwo  = new Watches("Femwok", "50$", false);
+		Watches watchThree  = new Watches("Sputnic", "80$", true);
+		System.out.println("watchOne");
+		System.out.println(watchOne.brand);
+		System.out.println(watchOne.price);
+		System.out.println(watchOne.forMan);
+		
 	}
 	
-	public static int countLetters(char [] letters, char searchLetter) {
-		int count = 0;
-		for (char letter : letters) {
-			if (letter == searchLetter) {
-				count++;
-			}
+	static class Watches { // class/template 
+		String brand;
+		String price;
+		boolean forMan;
+		
+		Watches(String brand, String price, boolean forMan) { //Constuctor
+			this.brand = brand;
+			this.price = price;
+			this.forMan = forMan;
 		}
-		return count;
 	}
+	
 
 }
