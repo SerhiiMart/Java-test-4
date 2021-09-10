@@ -1,9 +1,10 @@
 package testJava1;
 
+import java.util.Arrays;
+
 //import java.time.LocalDate;
 //import java.util.Scanner;
 
-//import java.util.Arrays;
 
 public class forTesting {
 
@@ -159,8 +160,13 @@ public class forTesting {
 	}
 	
 	public static int countLetters(char [] letters, char searchLetter) {
-		System.out.println("Invoking countLetters method");
-		return 0;
+		int count = 0;
+		for (char letter : letters) {
+			if (letters.equals(searchLetter)) {
+				count++;
+			}
+		}
+		return count;
 	}
 
 }
