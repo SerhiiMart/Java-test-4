@@ -1,7 +1,7 @@
 package testJava1;
 
-import java.time.LocalDate;
-import java.util.Scanner;
+//import java.time.LocalDate;
+//import java.util.Scanner;
 
 //import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class forTesting {
 //			System.out.println(result);
 //		}
 		
-		//// Побітові операції
+		//// РџРѕР±С–С‚РѕРІС– РѕРїРµСЂР°С†С–С—
 //		int i = 10;
 //		int n = i++;
 //		int m = ++i;
@@ -136,21 +136,31 @@ public class forTesting {
 //		while (x <= 13);
 //		
 		
-		////  Taking user input with the Scanner class
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("What's your name?");
-		String name = scanner.nextLine();
-		System.out.println("Your namer is " + name);
-		System.out.println("What's your favorite color?");
-		String color = scanner.nextLine();
-		System.out.println("Your favorite color is " + color);
-		System.out.println("What's your age?");
-		int age = scanner.nextInt();
-		int year = LocalDate.now().minusYears(age).getYear();
-		System.out.println("You were born in " + year);
+//		////  Taking user input with the Scanner class
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("What's your name?");
+//		String name = scanner.nextLine();
+//		System.out.println("Your namer is " + name);
+//		System.out.println("What's your favorite color?");
+//		String color = scanner.nextLine();
+//		System.out.println("Your favorite color is " + color);
+//		System.out.println("What's your age?");
+//		int age = scanner.nextInt();
+//		int year = LocalDate.now().minusYears(age).getYear();
+//		System.out.println("You were born in " + year);
+//		
+//		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
+//		System.out.println(ternaryAgeString);
 		
-		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
-		System.out.println(ternaryAgeString);
+		////Methods
+		char [] letters = {'A', 'A', 'B', 'Г‡', 'D', 'D', 'D', 'E', 'F', 'F'};
+		int count = countLetters(letters, 'A');
+		System.out.println(count);
+	}
+	
+	public static int countLetters(char [] letters, char searchLetter) {
+		System.out.println("Invoking countLetters method");
+		return 0;
 	}
 
 }
