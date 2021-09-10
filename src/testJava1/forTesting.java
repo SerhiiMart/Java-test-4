@@ -155,14 +155,14 @@ public class forTesting {
 		
 		////Methods
 		char [] letters = {'A', 'A', 'B', 'Ç', 'D', 'D', 'D', 'E', 'F', 'F'};
-		int count = countLetters(letters, 'A');
+		int count = countLetters(letters, 'D');
 		System.out.println(count);
 	}
 	
 	public static int countLetters(char [] letters, char searchLetter) {
 		int count = 0;
 		for (char letter : letters) {
-			if (letters.equals(searchLetter)) {
+			if (letter == searchLetter) {
 				count++;
 			}
 		}
