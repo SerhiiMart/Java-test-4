@@ -153,10 +153,7 @@ public class forTesting {
 //		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
 //		System.out.println(ternaryAgeString);
 		
-		////Methods
-		char [] letters = {'A', 'A', 'B', 'Ç', 'D', 'D', 'D', 'E', 'F', 'F'};
-		int count = countLetters(letters, 'D');
-		System.out.println(count);
+
 	}
 	
 	public static int countLetters(char [] letters, char searchLetter) {
