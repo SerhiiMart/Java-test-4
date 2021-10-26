@@ -1,1 +1,2 @@
-## Java's random project stuff
+## Java's random project stuff 
+* Basic Java things
