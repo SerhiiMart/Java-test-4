@@ -146,9 +146,13 @@ public class forTesting {
 //		String color = scanner.nextLine();
 //		System.out.println("Your favorite color is " + color);
 //		System.out.println("What's your age?");
-//		int age = scanner.nextInt();
+//		String ageData = scanner.next();
+//		int Age = Integer.parseInt(ageData);
 //		int year = LocalDate.now().minusYears(age).getYear();
 //		System.out.println("You were born in " + year);
+		
+		// Better way to get scanned data is to always take String data type and then convert it 
+		//  into needed data type. 
 //		
 //		String ternaryAgeString = age >= 18 ? " and you are an adult" : " and you are not an adult";
 //		System.out.println(ternaryAgeString);
