@@ -177,7 +177,7 @@ public class forTesting {
 //		String price;
 //		boolean forMan;
 //		
-//		Watches(String brand, String price, boolean forMan) { //Constuctor
+//		Watches(String brand, String price, boolean forMan) { //constructor
 //			this.brand = brand;
 //			this.price = price;
 //			this.forMan = forMan;
