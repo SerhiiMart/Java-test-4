@@ -146,8 +146,8 @@ public class forTesting {
 //		String color = scanner.nextLine();
 //		System.out.println("Your favorite color is " + color);
 //		System.out.println("What's your age?");
-//		String ageData = scanner.next();
-//		int Age = Integer.parseInt(ageData);
+//		String ageData = scanner.nextLine();
+//		int age = Integer.parseInt(ageData); // converting string into integer
 //		int year = LocalDate.now().minusYears(age).getYear();
 //		System.out.println("You were born in " + year);
 		
@@ -168,11 +168,8 @@ public class forTesting {
 //		System.out.println(watchOne.brand);
 //		System.out.println(watchOne.price);
 //		System.out.println(watchOne.forMan);
-		
-		
-		
-		
-		
+			
+	
 	}
 	
 //	static class Watches { // class/template/blueprint
